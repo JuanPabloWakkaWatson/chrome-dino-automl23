@@ -23,7 +23,7 @@ COPY modelsMark1/ /app/modelsMark1/
 RUN pip install notebook pygame torch pandas numpy tqdm sqlalchemy
 
 # Exponer el puerto para el notebook
-EXPOSE 8888
+EXPOSE 7860
 
 # Configuración para ejecutar Pygame en modo sin cabeza
 ENV SDL_VIDEODRIVER=dummy
